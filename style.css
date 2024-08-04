@@ -196,15 +196,17 @@ body{
     }
 }
 @media screen and (max-width:686px) {
+    .menu{
+        display: none;
+        
+    }
     .menuSimge{
         align-items: center;
         font-weight: bold;
         font-size: 30px;
         display: flex;
     }
-    .kategori{
-        display: none;
-    }
+
 }
 @media screen and (max-width:480px)  {
     .satis{
